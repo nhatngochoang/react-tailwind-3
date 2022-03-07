@@ -1,11 +1,13 @@
-<style>
-img{
-  width: 150px;
-  }
-</style>
+
 ### Tailwind CSS 3
 
 ![Tailwind CSS 3](./public/wind.png "Tailwind CSS 3")
+<p align="center">
+ <a href="https://tailwindcss.com/docs/" target="blank">
+    <img width="150" src="./public/wind.png" alt="logo" />
+  </a>
+</p>
+ 
 
 # Install Tailwind <span><img src="./public/favicon-16x16.png" alt="Tailwind CSS 3" title="Tailwind CSS 3" height="25" /></span>
 ```bash

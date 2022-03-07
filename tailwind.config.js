@@ -7,6 +7,12 @@ module.exports = {
          sora: ["Sora"]
       },
       extend: {
+         // Breakpoints
+         screens: {
+            'tablet': '640px',
+            'laptop': '1024px',
+            'desktop': '1280px'
+         },
          // Color 
          colors: {
             "purple-200": "#DAC7FC",

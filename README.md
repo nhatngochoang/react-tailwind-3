@@ -58,20 +58,20 @@ h-screen
 
 # Padding Classes
 pl, pr, pt, pb
-px-n ➡ pl+pr
-py-n ➡ pt+pb
+px-{n} ➡ pl+pr
+py-{n} ➡ pt+pb
 
 # Margin Classes
 - ml, mr, mt, mb
-- mx-n ➡ ml+mr
-- my-n ➡ mt+mb
+- mx-{n} ➡ ml+mr
+- my-{n} ➡ mt+mb
 - ml-auto
   
 # Border 
-rounded-n
+rounded-{n}
 
 # Color Classes 
-bg-{color}-n
+bg-{color}-{n}
 
 # Hover Classes
 hover:{class-property}
@@ -85,11 +85,16 @@ transition-all duration-300
 
 ⚡️Linear gradients--
 2 colors: 
-- bg-gradient-to-{direction: r,l,t,b} from-{color}-n to-{color}-n
+- bg-gradient-to-{direction: r,l,t,b} from-{color}-{n} to-{color}-{n}
 3 colors: 
-- bg-gradient-to-{direction: r,l,t,b} from-{color}-n via-{color}-n to-{color}-n
+- bg-gradient-to-{direction: r,l,t,b} from-{color}-{n} via-{color}-{n} to-{color}-{n}
 
 # Responsive Classes 
+- sm: 640
+- md: 768
+- lg: 1024
+- xl: 1280
+- 2xl: 1536
 
 # Flex Classes
 - flex | flex-(row|col)
@@ -99,6 +104,7 @@ transition-all duration-300
 # Can giua chieu ngang
 text-center
 
-# @apply in index.css
+# Grid Classes
+grid gap-{n} grid-cols-{n} grid-rows-{n}
 
 

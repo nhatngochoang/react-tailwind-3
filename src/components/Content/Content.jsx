@@ -4,24 +4,30 @@ import { BsFillCreditCardFill } from 'react-icons/bs'
 import checkIcon from '../../assets/mobile/checkpoint.svg'
 
 const Content = () => {
-   const spring = useSpring({ customer: 12345, from: { customer: 0 } })
+   const customerSpring = useSpring({ customers: 12345, from: { customers: 0 } })
+   const cardSpring = useSpring({ cards: 12345, from: { cards: 0 } })
+
    return (
       <section className="ml-[70px] mr-[54px] text-bold">
          <div className="section-content">
             <FaUser size="44px" />
             <div className="section-content-wrapper">
-               <p className="text-26">12345</p>
+               <div className="text-26">
+                  <animated.div>
+                     {customerSpring.customers.to(val => Math.floor(val))}
+                  </animated.div>
+               </div>
                <p className="section-content__text">Customers</p>
             </div>
          </div>
          <div className="section-content mt-[20px]">
             <BsFillCreditCardFill size="44px" />
             <div className="section-content-wrapper">
-               <p className="text-26">
+               <div className="text-26">
                   <animated.div>
-                     {spring.customer.to(val => Math.floor(val))}
+                     {cardSpring.cards.to(val => Math.floor(val))}
                   </animated.div>
-               </p>
+               </div>
                <p className="section-content__text">Cards Issued</p>
             </div>
          </div>

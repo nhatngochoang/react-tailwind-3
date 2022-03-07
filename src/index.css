@@ -12,6 +12,7 @@ h1 {
    font-size: 2.4rem; /* =24px */
 }
 
+/* @apply in index.css */
 @layer components {
    .check-content {
       @apply flex gap-8 mx-[10px] my-[10px] items-center;
@@ -25,5 +26,9 @@ h1 {
    }
    .section-content__text {
       @apply text-13 font-semibold mb-[12px];
+   }
+
+   .navbar-list-item {
+      @apply hover:text-purple-500 transition-all duration-200 cursor-pointer;
    }
 }

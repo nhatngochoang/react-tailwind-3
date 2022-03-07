@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BsSunFill } from "react-icons/bs"
 import { HiOutlineMenu } from "react-icons/hi"
 import { MdOutlineClose } from "react-icons/md"
-const NavBar = () => {
+const NavBar = ({ isMobile }) => {
    const [openMenu, setOpenMenu] = useState(false)
 
    return (
@@ -14,17 +14,22 @@ const NavBar = () => {
                color={"#e9c46a"}
             />
          </div>
-         <ul className="ml-auto text-16 font-semibold">
-            {openMenu ?
+         <ul className="md:flex md:gap-16 ml-auto text-16 font-semibold">
+            {openMenu && isMobile ?
                <MdOutlineClose className="cursor-pointer"
                   size={"24px"}
                   onClick={() => setOpenMenu(!openMenu)} />
-               :
-               <HiOutlineMenu className="cursor-pointer"
-                  size={"24px"}
-                  onClick={() => setOpenMenu(!openMenu)}
-               />
-
+               : !openMenu && isMobile ?
+                  <HiOutlineMenu className="cursor-pointer"
+                     size={"24px"}
+                     onClick={() => setOpenMenu(!openMenu)}
+                  />
+                  : (<>
+                     <li className="navbar-list-item">Features</li>
+                     <li className="navbar-list-item">Menu</li>
+                     <li className="navbar-list-item">Our Story</li>
+                     <li className="navbar-list-item ml-28">Contact</li>
+                  </>)
             }
             {openMenu &&
                <div className="absolute right-[8%] bg-white p-8 text-center text-black text-13">

@@ -1,10 +1,11 @@
 
 <p align="center">
- <img src="./public/wind2.png" alt="logo" />
+ 
 </p>
 <p align="center">
  <a href="https://tailwindcss.com/docs/" target="blank">
-    <img width="150" src="./public/wind.png" alt="logo" />
+  <img src="./public/wind2.png" alt="logo" />
+<!--     <img width="150" src="./public/wind.png" alt="logo" /> -->
   </a>
 </p>
  

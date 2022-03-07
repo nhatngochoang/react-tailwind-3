@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Install Tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+# Install React Icons
+npm i react-icons --save
+import { BsSunFill } from "react-icons/bs" -> bs means Bs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Copy file into 'tailwind.config.js'
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
 
-In the project directory, you can run:
+# Copy into index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-### `npm start`
+# Passing Value Directly
+prop-[...value]
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Height Classes
+h-screen
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Padding Classes
+pl, pr, pt, pb
+px-n => pl+pr
+py-n => pt+pb
 
-### `npm test`
+# Margin Classes
+ml, mr, mt, mb
+mx-n => ml+mr
+my-n => mt+mb
+ml-auto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Color Classes 
+bg-{color}-n
 
-### `npm run build`
+--Linear gradients--
+2 colors: 
++ bg-gradient-to-{direction: r,l,t,b} from-{color}-n to-{color}-n
+3 colors: 
++ bg-gradient-to-{direction: r,l,t,b} from-{color}-n via-{color}-n to-{color}-n
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Responsive Classes 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Flex Classes
+flex -
+align-items --> items-(start|end|center|baseline|stretch)
+justify-content --> justify-(start|end|center|between|around|evenly)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Can giua chieu ngang
+text-center

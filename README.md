@@ -51,11 +51,11 @@ py-n => pt+pb
 # Color Classes 
 bg-{color}-n
 
---Linear gradients--
-- 2 colors: 
-+ bg-gradient-to-{direction: r,l,t,b} from-{color}-n to-{color}-n
-- 3 colors: 
-+ bg-gradient-to-{direction: r,l,t,b} from-{color}-n via-{color}-n to-{color}-n
+⚡️Linear gradients--
+2 colors: 
+- bg-gradient-to-{direction: r,l,t,b} from-{color}-n to-{color}-n
+3 colors: 
+- bg-gradient-to-{direction: r,l,t,b} from-{color}-n via-{color}-n to-{color}-n
 
 # Responsive Classes 
 

@@ -1,3 +1,5 @@
+### Tailwind CSS 3
+![Alt Text](./public/wind.png?raw=true "Tailwind CSS 3")
 # Install Tailwind
 ```bash
 npm install -D tailwindcss postcss autoprefixer
@@ -10,7 +12,7 @@ import { BsSunFill } from "react-icons/bs" -> bs means Bs
 ```
 
 
-# Copy file into 'tailwind.config.js'
+# Copy into 'tailwind.config.js'
 ```javascript
 module.exports = {
   content: [
@@ -24,7 +26,7 @@ module.exports = {
 ```
 
 
-# Copy into index.css
+# Copy into 'index.css'
 ```css
 @tailwind base;
 @tailwind components;

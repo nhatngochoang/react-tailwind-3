@@ -1,6 +1,8 @@
 # Install Tailwind
+```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+```
 # Install React Icons
 npm i react-icons --save
 import { BsSunFill } from "react-icons/bs" -> bs means Bs

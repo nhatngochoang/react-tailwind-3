@@ -98,8 +98,8 @@ transition-all duration-300
 
 # Flex Classes
 - flex | flex-(row|col)
-- align-items ➡ items-(start|end|center|baseline|stretch)
-- justify-content ➡ justify-(start|end|center|between|around|evenly)
+- align-items ➡ items-(start / end / center / baseline / stretch)
+- justify-content ➡ justify-(start /end /center /between /around /evenly)
 
 # Can giua chieu ngang
 text-center
@@ -107,4 +107,6 @@ text-center
 # Grid Classes
 grid gap-{n} grid-cols-{n} grid-rows-{n}
 
-
+# Position Classes
+relative 
+absolute (top / bottom / left / right)-{n}

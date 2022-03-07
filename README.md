@@ -1,7 +1,7 @@
 ### Tailwind CSS 3
-<p align="center">
+
 ![Tailwind CSS 3](./public/wind.png "Tailwind CSS 3")
-</p>
+
 
 # Install Tailwind <span><img src="./public/favicon-16x16.png" alt="Tailwind CSS 3" title="Tailwind CSS 3" height="25" /></span>
 ```bash

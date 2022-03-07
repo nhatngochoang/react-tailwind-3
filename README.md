@@ -1,7 +1,7 @@
 
 <p align="center">
  <a href="https://tailwindcss.com/docs/" target="blank">
-    <img width="150" src="./public/wind.png" alt="logo" />
+    <img src="./public/banner.png" alt="logo" />
   </a>
 </p>
  

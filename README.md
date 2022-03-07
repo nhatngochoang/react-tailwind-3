@@ -1,5 +1,5 @@
-<p align="center">
 ### Tailwind CSS 3
+<p align="center">
  <a href="https://tailwindcss.com/docs/" target="blank">
     <img width="150" src="./public/wind.png" alt="logo" />
   </a>

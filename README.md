@@ -21,6 +21,11 @@ npm i react-icons --save
 import { BsSunFill } from "react-icons/bs" -> bs means Bs
 ```
 
+# Install React Spring ➡ text loading animation
+```bash
+npm i react-spring --save
+```
+
 
 # Copy into 'tailwind.config.js'
 ```javascript
@@ -46,22 +51,37 @@ module.exports = {
 # Passing Value Directly
 prop-[...value]
 
+# Width Classes
+w-[100%]
 # Height Classes
 h-screen
 
 # Padding Classes
 pl, pr, pt, pb
-px-n => pl+pr
-py-n => pt+pb
+px-n ➡ pl+pr
+py-n ➡ pt+pb
 
 # Margin Classes
 - ml, mr, mt, mb
-- mx-n => ml+mr
-- my-n => mt+mb
+- mx-n ➡ ml+mr
+- my-n ➡ mt+mb
 - ml-auto
+  
+# Border 
+rounded-n
 
 # Color Classes 
 bg-{color}-n
+
+# Hover Classes
+hover:{class-property}
+
+# Overflow Classes
+overflow-y-auto
+overflow-x-hidden
+
+# Transition Classes
+transition-all duration-300
 
 ⚡️Linear gradients--
 2 colors: 
@@ -72,9 +92,13 @@ bg-{color}-n
 # Responsive Classes 
 
 # Flex Classes
-- flex -
-- align-items --> items-(start|end|center|baseline|stretch)
-- justify-content --> justify-(start|end|center|between|around|evenly)
+- flex | flex-(row|col)
+- align-items ➡ items-(start|end|center|baseline|stretch)
+- justify-content ➡ justify-(start|end|center|between|around|evenly)
 
 # Can giua chieu ngang
 text-center
+
+# @apply in index.css
+
+

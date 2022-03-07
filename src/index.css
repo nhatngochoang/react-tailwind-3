@@ -11,3 +11,19 @@ body {
 h1 {
    font-size: 2.4rem; /* =24px */
 }
+
+@layer components {
+   .check-content {
+      @apply flex gap-8 mx-[10px] my-[10px] items-center;
+   }
+   .section-content {
+      @apply bg-gradient-to-b shadow-md from-white/40 to-transparent 
+      rounded-[24px] p-4 flex items-center justify-around;
+   }
+   .section-content-wrapper {
+      @apply gap-8 flex-col items-center justify-center mt-[8px];
+   }
+   .section-content__text {
+      @apply text-13 font-semibold mb-[12px];
+   }
+}

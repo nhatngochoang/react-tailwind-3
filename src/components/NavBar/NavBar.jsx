@@ -1,6 +1,10 @@
+import { useState } from "react";
 import { BsSunFill } from "react-icons/bs"
 import { HiOutlineMenu } from "react-icons/hi"
+import { MdOutlineClose } from "react-icons/md"
 const NavBar = () => {
+   const [openMenu, setOpenMenu] = useState(false)
+
    return (
       <nav className="flex items-center">
          <div className="flex items-center">
@@ -11,9 +15,25 @@ const NavBar = () => {
             />
          </div>
          <ul className="ml-auto text-16 font-semibold">
-            <HiOutlineMenu className="cursor-pointer"
-               size={"24px"}
-            />
+            {openMenu ?
+               <MdOutlineClose className="cursor-pointer"
+                  size={"24px"}
+                  onClick={() => setOpenMenu(!openMenu)} />
+               :
+               <HiOutlineMenu className="cursor-pointer"
+                  size={"24px"}
+                  onClick={() => setOpenMenu(!openMenu)}
+               />
+
+            }
+            {openMenu &&
+               <div className="absolute right-[8%] bg-white p-8 text-center text-black text-13">
+                  <li className="cursor-pointer">Features</li>
+                  <li className="cursor-pointer">Menu</li>
+                  <li className="cursor-pointer">Our Story</li>
+                  <li className="cursor-pointer">Contact</li>
+               </div>
+            }
          </ul>
       </nav>
    );

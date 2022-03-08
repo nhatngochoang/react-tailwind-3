@@ -40,7 +40,7 @@ const NavBar = ({ isMobile }) => {
                      <li className="navbar-list-item">Features</li>
                      <li className="navbar-list-item">Menu</li>
                      <li className="navbar-list-item">Our Story</li>
-                     <li className="navbar-list-item ml-28">Contact</li>
+                     <li className="navbar-list-item">Contact</li>
                   </>)
             }
             {openMenu &&

@@ -8,7 +8,21 @@
 <!--     <img width="150" src="./public/wind.png" alt="logo" /> -->
   </a>
 </p>
+
+# Landing Page 2 Mode
+<p align="center">
+ <a href="https://tailwindcss.com/docs/" target="blank">
+  <img src="./public/landingpage.gif" alt="landing page demo" />
+<!--     <img width="150" src="./public/wind.png" alt="logo" /> -->
+  </a>
+</p>
  
+ # Spotify
+<p align="center">
+ <a href="https://tailwindcss.com/docs/" target="blank">
+  <img src="./public/spotify.png" alt="spotify demo" />
+  </a>
+</p>
 
 # Install Tailwind <span><img src="./public/favicon-16x16.png" alt="Tailwind CSS 3" title="Tailwind CSS 3" height="25" /></span>
 ```bash

@@ -34,7 +34,7 @@ npx tailwindcss init -p
 # Install React Icons
 ```bash
 npm i react-icons --save
-import { BsSunFill } from "react-icons/bs" -> bs means Bs
+import { BsSunFill } from "react-icons/bs" ➡ bs means Bs
 ```
 
 # Install React Spring ➡ text loading animation
@@ -139,3 +139,7 @@ grid gap-{n} grid-cols-{n} grid-rows-{n}
 # Position Classes
 relative 
 absolute (top / bottom / left / right)-{n}
+
+# Snap Scroll
+- parent div ➡ snap-y snap-mandatory overflow-scroll h-screen
+- child div ➡ snap-(start / center / end)

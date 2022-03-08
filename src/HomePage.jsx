@@ -11,6 +11,9 @@ const HomePage = () => {
             <li>
                <Link to="/spotify" >spotify</Link>
             </li>
+            <li>
+               <Link to="/tiktok" >tiktok</Link>
+            </li>
          </ul>
       </>
    );

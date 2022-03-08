@@ -10,7 +10,7 @@ import './Spotify.css';
 const Spotify = () => {
    const [playingSong, setPlayingSong] = useState(Data[0])
 
-   const [id, setID] = useState()
+   const [id, setID] = useState(playingSong.id)
    const handlePlaySong = (song) => {
       setID(song.id)
       setPlayingSong(song)

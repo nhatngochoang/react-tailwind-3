@@ -26,6 +26,15 @@ import { BsSunFill } from "react-icons/bs" -> bs means Bs
 npm i react-spring --save
 ```
 
+# Install React Font Awesome
+```bash
+npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons @fortawesome/free-brands-svg-icons
+```
+
+# Install MP3 Player
+```bash
+npm i react-h5-audio-player
+```
 
 # Copy into 'tailwind.config.js'
 ```javascript

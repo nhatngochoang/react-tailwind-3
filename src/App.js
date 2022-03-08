@@ -1,11 +1,11 @@
-import LandingPage from "./landing-page/LandingPage.js";
+import Switch from "./routes/Switch.jsx";
 
 
 function App() {
 
    return (
       <>
-         <LandingPage />
+         <Switch />
       </>
    );
 }

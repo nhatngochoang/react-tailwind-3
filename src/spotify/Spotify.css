@@ -1,0 +1,13 @@
+html {
+   font-size: 100% !important;
+}
+
+.playing {
+   background-color: #111827 !important;
+   height: 96px !important;
+}
+
+.rhap_current-time,
+.rhap_time {
+   color: #fff;
+}

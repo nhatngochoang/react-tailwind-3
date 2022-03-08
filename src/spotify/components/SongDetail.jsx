@@ -12,8 +12,8 @@ export default function SongDetail() {
             <img className="w-full animate-pulse" src={playingSong.links.images[0].url} alt="song avatar" />
          </div>
          <div className="flex justify-evenly itesm-center mt-10">
-            <img className="w-[70px] rounded-full animate-rotate" src={playingSong.links.images[1].url} alt="artist avatar" />
-            <span className="text-xl text-white leading-[70px]">{playingSong.author}</span>
+            <img className="w-[70px] rounded-full animate-rotate relative left-[12%]" src={playingSong.links.images[1].url} alt="artist avatar" />
+            <span className="text-xl text-white leading-[70px] mr-[12%]">{playingSong.author}</span>
          </div>
       </div>
    )

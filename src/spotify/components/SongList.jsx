@@ -13,7 +13,7 @@ export default function SongList() {
                <tr className="h-14">
                   <th className="w-[10%]">#</th>
                   <th className="text-left">Title</th>
-                  <th className="w-[10%]">Author</th>
+                  <th className="w-[15%]">Author</th>
                   <th className="w-[10%] text-center">
                      <FontAwesomeIcon icon={faDownload} style={{ color: 'white' }} />
                   </th>

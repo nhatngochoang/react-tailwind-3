@@ -17,6 +17,7 @@ html {
    color: turquoise !important;
 }
 
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
    width: 20px;
 }

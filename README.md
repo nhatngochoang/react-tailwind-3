@@ -56,6 +56,10 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+# Build fix
+```bash
+"build": "set \"CI=false\" && react-scripts build" 
+```
 
 # Passing Value Directly
 prop-[...value]

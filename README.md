@@ -10,16 +10,19 @@
 </p>
 
 # Landing Page 2 Mode
-<p >
-
-  <img src="./public/landingpage.gif" alt="landing page demo" />
+<p align="center">
+ <a href="https://react-tailwind-3-xi.vercel.app/landingPage" target="blank">
+  <img src="./public/landingpage.gif" alt="landing page demo" width="830px"/>
+ </a>
 <!--     <img width="150" src="./public/wind.png" alt="logo" /> -->
 
 </p>
  
  # Spotify
 <p align="center">
+ <a href="https://react-tailwind-3-xi.vercel.app/spotify" target="blank">
   <img src="./public/spotify.png" alt="spotify demo" />
+  </a>
 </p>
 
 # Install Tailwind <span><img src="./public/favicon-16x16.png" alt="Tailwind CSS 3" title="Tailwind CSS 3" height="25" /></span>

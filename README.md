@@ -58,7 +58,7 @@ module.exports = {
 ```
 # Build fix
 ```bash
-"build": "set \"CI=false\" && react-scripts build" 
+ "build": "CI=false && react-scripts build",
 ```
 
 # Passing Value Directly

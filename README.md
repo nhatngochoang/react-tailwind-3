@@ -12,8 +12,12 @@
 # Landing Page 2 Mode
 <p align="center">
  <a href="https://react-tailwind-3-xi.vercel.app/landingPage" target="blank">
-  <img src="./public/landingpage.gif" alt="landing page demo" width="830px"/>
+  Click link!!!
  </a>
+ <video width="830"  controls>
+  <source src="./public/landingpage.mp4" type="video/mp4">
+Demo
+</video>
 <!--     <img width="150" src="./public/wind.png" alt="logo" /> -->
 
 </p>

@@ -9,6 +9,9 @@ const HomePage = () => {
                <Link to="/landingPage" >LandingPage</Link>
             </li>
             <li>
+               <Link to="/landingPage2" >LandingPage2</Link>
+            </li>
+            <li>
                <Link to="/spotify" >spotify</Link>
             </li>
             <li>

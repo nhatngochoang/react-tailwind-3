@@ -58,6 +58,12 @@ module.exports = {
          animation: {
             rotate: 'rotate 4s linear infinite',
             wiggle: 'wiggle 1s ease-in-out infinite',
+         },
+         // background image
+         backgroundImage: {
+            'banner-landingpage2': "url('./landing-page-2/img/banner.png')",
+            'download-landingpage2': "url('./landing-page-2/img/download.png')",
+
          }
       },
    },

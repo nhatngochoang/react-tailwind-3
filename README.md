@@ -22,7 +22,7 @@
 # Landing Page Responsive
 <p align="center">
  <a href="https://react-tailwind-3-xi.vercel.app/landingPage2" target="blank">
-  <img width="800" src="./public/landingpage.gif" alt="landing page 2 demo" />
+  <img width="800" src="./public/landingpage2.gif" alt="landing page 2 demo" />
  </a>
  <a href="https://www.figma.com/file/FynW2GcJFYna570UxmQWP3/Food-delivery-app-Ui-kit-(Community)?node-id=513%3A22" target="blank">
 Link Figma!!!

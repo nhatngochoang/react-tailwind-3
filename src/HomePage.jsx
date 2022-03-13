@@ -17,6 +17,9 @@ const HomePage = () => {
             <li>
                <Link to="/tiktok" >tiktok</Link>
             </li>
+            <li>
+               <Link to="/portfolio" >Portfolio</Link>
+            </li>
          </ul>
       </>
    );

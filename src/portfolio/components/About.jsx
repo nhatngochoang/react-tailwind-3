@@ -11,7 +11,7 @@ const About = ({ isMobile }) => {
 
    return (<>
       {/* about me  */}
-      <section id="about" className="md:scale-125 md:translate-y-16">
+      <section id="about" className="md:scale-125 translate-y-16">
          <div className="max-h-[3000px] mb-[200px] md:mb-[400px]">
             {/* dec  */}
             <div className="things__dec ">

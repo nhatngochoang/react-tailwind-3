@@ -4,6 +4,7 @@ import { HiOutlineMenu } from "react-icons/hi"
 import { MdOutlineClose } from "react-icons/md"
 import { FaMoon } from "react-icons/fa"
 import useDarkMode from "../../useDarkMode.js";
+import ToggleButton from "../ToggleButton.jsx";
 const NavBar = ({ isMobile }) => {
    const [openMenu, setOpenMenu] = useState(false)
 
@@ -25,6 +26,9 @@ const NavBar = ({ isMobile }) => {
                   onClick={() => toggleDarkMode(!isDarkMode)}
                />
             }
+            <div className="absolute top-[-2px] left-[250px]">
+               <ToggleButton isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />
+            </div>
          </div>
          <ul className="md:flex md:gap-16 ml-auto text-16 font-semibold md:ml-[62%]">
             {openMenu && isMobile ?

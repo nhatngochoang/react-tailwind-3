@@ -48,7 +48,7 @@ img {
       @apply transition-all duration-300;
    }
    .navbar__link {
-      @apply m-[55px];
+      @apply m-[55px] ml-[24px];
    }
    .navbar__link a {
       @apply text-white font-light md:text-gray-500;

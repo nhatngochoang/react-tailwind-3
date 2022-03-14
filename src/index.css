@@ -168,7 +168,7 @@ img {
    }
    /* footer */
    #footer {
-      @apply relative h-[600px] flex items-center;
+      @apply relative h-[600px] flex items-start mt-16;
    }
    .footer__img {
       @apply absolute top-[80px] right-[0] z-[-1];

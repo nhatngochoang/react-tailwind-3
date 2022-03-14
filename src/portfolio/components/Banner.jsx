@@ -14,7 +14,7 @@ const Banner = () => {
             </div>
             {/* heading */}
             <div className="max-w-[300px] my-0 mx-auto text-center text-gray-var md:text-left md:m-0 md:p-0 md:max-w-[600px]">
-               <h1 className="fs-[36px] pt-[32vh] mb-[28px] md:pt-0">Hello, I'm Nhat</h1>
+               <h1 className="fs-[36px] pt-[60vh] mb-[28px] md:pt-0">Hello, I'm Nhat</h1>
                <p className="banner__heading__para">
                   As a web developer with a passion for JavaScript, React...Maybe Node in the future :))
                </p>

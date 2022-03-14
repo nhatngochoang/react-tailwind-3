@@ -111,7 +111,7 @@ img {
       @apply pt-4 relative;
    }
    .works__img--single {
-      @apply relative my-8 mx-4 md:mx-16 md:max-w-[35%] md:my-16 overflow-hidden rounded-xl;
+      @apply relative my-8 mx-4 md:mx-16 md:max-w-[35%] md:max-h-[450px] md:my-16 overflow-hidden rounded-xl;
    }
    .works__img--single:nth-child(odd) {
       @apply md:translate-y-16;

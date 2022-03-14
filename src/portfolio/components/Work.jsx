@@ -18,7 +18,7 @@ const Work = () => {
                   <img src={work} alt="illustration of leaf" />
                </div>
                {/* heading  */}
-               <h2 className="text-center">Recent Works</h2>
+               <h2 className="text-center md:text-[40px] md:mt-16">Recent Projects</h2>
                {/* img  */}
                <div className="works__img">
                   <div className="works__img--single">

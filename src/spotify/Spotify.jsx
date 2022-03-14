@@ -4,7 +4,7 @@ import Playing from "./components/Playing.jsx";
 import SongDetail from "./components/SongDetail.jsx";
 import SongList from "./components/SongList.jsx";
 import { Songs } from "./Context.js";
-import Data from './data/songs.json'
+import Data from './data/songs2.json'
 import './Spotify.css';
 
 const Spotify = () => {

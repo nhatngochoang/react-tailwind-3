@@ -93,17 +93,19 @@ module.exports = {
 # Passing Value Directly
 prop-[...value]
 
-# Width Classes
-w-[100%]
-# Height Classes
+# Width, Height 
+w-[100%] === w-full
+w-[60%] === w-3/5
 h-screen
 
-# Padding Classes
+max-w-{n}
+
+# Padding 
 pl, pr, pt, pb
 px-{n} ➡ pl+pr
 py-{n} ➡ pt+pb
 
-# Margin Classes
+# Margin 
 - ml, mr, mt, mb
 - mx-{n} ➡ ml+mr
 - my-{n} ➡ mt+mb
@@ -112,18 +114,38 @@ py-{n} ➡ pt+pb
 # Border 
 rounded-{n}
 
-# Color Classes 
+# Color  
 bg-{color}-{n}
 
-# Hover Classes
+# Text
+## font-weight
+font-thin	    ➡ 100;
+font-extralight ➡ 200;
+font-light	    ➡ 300;
+font-normal	    ➡ 400;
+font-medium	    ➡ 500;
+font-semibold   ➡ 600;
+font-bold	    ➡ 700;
+font-extrabold	 ➡ 800;
+font-black	    ➡ 900;
+## font-size
+text-(xs / sm / base / lg / {2-9}xl)
+
+# Hover 
 hover:{class-property}
 
-# Overflow Classes
+# Overflow 
 overflow-y-auto
 overflow-x-hidden
 
-# Transition Classes
+# Opacity
+opacity-0
+
+# Transition 
 transition-all duration-300
+
+# Translate
+translate-x-full
 
 ⚡️Linear gradients--
 2 colors: 
@@ -131,14 +153,14 @@ transition-all duration-300
 3 colors: 
 - bg-gradient-to-{direction: r,l,t,b} from-{color}-{n} via-{color}-{n} to-{color}-{n}
 
-# Responsive Classes 
+# Responsive  
 - sm: 640
 - md: 768
 - lg: 1024
 - xl: 1280
 - 2xl: 1536
 
-# Flex Classes
+# Flex 
 - flex | flex-(row|col)
 - align-items ➡ items-(start / end / center / baseline / stretch)
 - justify-content ➡ justify-(start /end /center /between /around /evenly)
@@ -146,13 +168,13 @@ transition-all duration-300
 # Can giua chieu ngang
 text-center
 
-# Grid Classes
+# Grid 
 grid gap-{n} grid-cols-{n} grid-rows-{n}
 
-# Position Classes
+# Position 
 relative 
 absolute (top / bottom / left / right)-{n}
-
+fixed
 # Snap Scroll
 - parent div ➡ snap-y snap-mandatory overflow-scroll h-screen
 - child div ➡ snap-(start / center / end)

@@ -10,6 +10,7 @@ function LandingPage() {
       width: undefined,
       heigt: undefined
    })
+
    const [isMobile, setIsMobile] = useState(false)
 
    useEffect(() => {

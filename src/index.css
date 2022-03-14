@@ -4,6 +4,28 @@
 
 html {
    font-size: 62.5%;
+   scroll-behavior: smooth;
+}
+
+html {
+   max-width: 100vw;
+   overflow-x: hidden;
+}
+
+img {
+   max-width: 100%;
+}
+
+.container {
+   max-width: 1200px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 10px;
+   overflow-x: hidden;
+}
+
+button {
+   @apply text-center text-white bg-gray-var px-10 py-4 rounded-[100px] hover:bg-green-l-var transition-all duration-300 hover:text-gray-700;
 }
 
 /* @apply in index.css */
@@ -24,5 +46,146 @@ html {
 
    .navbar-list-item {
       @apply hover:text-purple-500 transition-all duration-200 cursor-pointer md:min-w-[80px];
+   }
+   /* Portfolio */
+   .smooth {
+      @apply transition-all duration-300;
+   }
+   .navbar__link {
+      @apply m-[55px];
+   }
+   .navbar__link a {
+      @apply text-white font-light md:text-gray-500;
+   }
+   .navbar__icon {
+      @apply w-[45px] h-[6px] bg-gray-var rounded-[5px] relative md:hidden;
+   }
+   .navbar__icon:before,
+   .navbar__icon:after {
+      @apply absolute w-[45px] h-[6px] bg-gray-var rounded-[5px] transition-all duration-300;
+   }
+   .navbar__icon:before {
+      @apply -translate-y-[12px];
+   }
+   .navbar__icon:after {
+      @apply translate-y-[12px];
+   }
+   .navbar__icon.open:before {
+      @apply rotate-[45deg] translate-x-[5px] -translate-y-[0px];
+   }
+   .navbar__icon.open:after {
+      @apply rotate-[-45deg] translate-x-[5px] translate-y-[0px];
+   }
+   .navbar__icon.open {
+      @apply bg-transparent;
+   }
+   .banner__heading__para {
+      @apply font-thin mb-[24px] leading-[32px] text-base;
+   }
+   /* about me */
+   #about {
+      @apply relative overflow-x-hidden mt-[89px] md:mt-16 md:max-w-[88vw] md:pl-48;
+   }
+   #about h3 {
+      @apply text-center text-gray-var mb-[24px] md:mb-[12px] md:mt-[24px];
+   }
+   .things__item {
+      @apply my-[36px] md:flex md:flex-row md:justify-center md:items-center md:gap-16;
+   }
+   .things__item img {
+      @apply pb-[48px];
+   }
+   .things__item--heading {
+      @apply text-center text-gray-var md:mb-16;
+   }
+   .things__item--heading p {
+      @apply leading-[32px] max-w-[300px] my-0 mx-auto pt-[16px];
+   }
+   .things__item:nth-child(odd) img {
+      @apply md:order-2;
+   }
+   .learn-container {
+      @apply flex flex-col md:flex-row scale-150 md:scale-[3] md:gap-3;
+   }
+   .learn-container svg {
+      @apply hover:text-gray-var transition-all duration-300;
+   }
+   /* work */
+   #works {
+      @apply pt-4 relative;
+   }
+   .works__img--single {
+      @apply relative my-8 mx-4 md:mx-16 md:max-w-[35%] md:my-16 overflow-hidden rounded-xl;
+   }
+   .works__img--single:nth-child(odd) {
+      @apply md:translate-y-16;
+   }
+   /* img work */
+   .works__img--single > img {
+      width: 100%;
+      vertical-align: middle;
+      transition: all 0.45s ease 0s;
+   }
+   .works__img--single:hover img {
+      transform: scale(1.5);
+   }
+   .works__img--single:hover .photo__actions,
+   .works__img--single:hover .photo__overlay {
+      opacity: 1;
+      transform: translateY(0);
+   }
+   .photo__actions,
+   .photo__overlay {
+      @apply flex justify-center opacity-0;
+   }
+   .photo__overlay {
+      /* text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      flex-flow: column nowrap;
+      width: 100%;
+      height: 100%;
+      padding: 1rem;
+      color: hsla(0, 0%, 100%, 0.8);
+      transition: all 0.25s ease 0s; */
+      background-color: rgba(0, 0, 0, 0.4);
+      @apply text-center absolute top-0 left-0 flex-col flex-nowrap w-full h-full p-[1rem] text-[#D4D4D3]  transition-all duration-300;
+   }
+   .photo__overlay h3 {
+      @apply mb-[30px];
+   }
+   .works__img {
+      @apply md:flex md:flex-wrap md:justify-center;
+   }
+   .works__btn {
+      @apply text-center pt-16;
+   }
+   .works__dec:nth-child(1) {
+      @apply absolute top-[-70px]  left-0 -translate-x-[50%] z-[-1];
+   }
+   .works__dec:nth-child(2) {
+      @apply absolute bottom-[-40px]  right-[0px]  z-[-1];
+   }
+   .works__dec:nth-child(2) img {
+      object-position: 150px 60px;
+   }
+   /* footer */
+   #footer {
+      @apply relative h-[600px] flex items-center;
+   }
+   .footer__img {
+      @apply absolute top-[80px] right-[0] z-[-1];
+   }
+   .footer__img img {
+      object-position: 50px 0px;
+      /* object-position: 125px 100px; */
+      @apply md:object-[125px_100px];
+   }
+   .footer__heading {
+      @apply text-center;
+   }
+   .footer__dec {
+      @apply absolute bottom-[-210px] right-[5.5rem];
    }
 }

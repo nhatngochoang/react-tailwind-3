@@ -26,6 +26,9 @@ module.exports = {
             "purple-700": "#5D0096",
             "purple-900": "#210035",
             "pink-500": "#AD26FF",
+            "green-var": "#54b192",
+            "green-l-var": "#a4cec0",
+            "gray-var": "#3f3d56",
          },
          // fontSize 
          fontSize: {
@@ -63,7 +66,6 @@ module.exports = {
          backgroundImage: {
             'banner-landingpage2': "url('./landing-page-2/img/banner.png')",
             'download-landingpage2': "url('./landing-page-2/img/download.png')",
-
          }
       },
    },

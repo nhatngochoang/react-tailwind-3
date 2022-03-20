@@ -34,9 +34,6 @@ const About = ({ isMobile }) => {
                   <p>
                      Graduated at HAUI
                   </p>
-                  <p>
-                     GPA 2.8
-                  </p>
                </div>
             </div>
             {/* item 2  */}

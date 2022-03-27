@@ -80,23 +80,23 @@
        }
    },
    {
-       "name": "Dung o day",
-       "author": "",
-       "url": "",
+       "name": "Losing Control",
+       "author": "Mendum, JPB",
+       "url": "https://ncsmusic.s3.eu-west-1.amazonaws.com/tracks/000/000/890/losing-control-1610121631-P9GX1l4YOO.mp3",
        "id": 5,
        "links": {
            "images": [
                {
-                   "url": ""
+                   "url": "https://linkstorage.linkfire.com/medialinks/images/42705568-0df2-4173-8abc-afaa867cf940/artwork-440x440.jpg"
                },
                {
-                   "url": ""
+                   "url": "https://linkstorage.linkfire.com/medialinks/images/42705568-0df2-4173-8abc-afaa867cf940/artwork-440x440.jpg"
                }
            ]
        }
    },
    {
-       "name": "Invincible [NCS Release]",
+       "name": "",
        "author": "DEAF KEV ",
        "url": "https://cdn.discordapp.com/attachments/775740994595323954/775741667210035220/DEAF_KEV_-_Invincible_NCS_ReleaseMP3_160K.mp3",
        "id": 6,

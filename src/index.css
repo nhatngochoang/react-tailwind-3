@@ -159,6 +159,17 @@ img {
    .learn-container svg {
       @apply hover:text-gray-var transition-all duration-300;
    }
+   .slider {
+      opacity: 0;
+      transform: scale(85%);
+      transition: 1.5s;
+   }
+
+   .slider--zoom {
+      opacity: 1;
+      transform: scale(100%);
+      transition: 1.5s;
+   }
    /* work */
    #works {
       @apply pt-4 relative;

@@ -1,5 +1,3 @@
-import gsap from "gsap";
-import { useEffect, useRef } from "react";
 import Skill from "./Skill.jsx";
 
 const image_l = require('../assets/img/things-dec-l.png')
@@ -10,26 +8,22 @@ const image_3 = require('../assets/img/things-item-3.png')
 
 
 const About = ({ isMobile }) => {
-   const boxRef = useRef();
-   // useEffect(() => {
-   //    gsap.to(boxRef.current, { rotation: "+=360" });
-   // });
    return (<>
       {/* about me  */}
-      <section id="about" className="md:scale-125 translate-y-16 md:translate-y-0" style={{ marginTop: 200 }}>
-         <div className="max-h-[3000px] mb-[200px] md:mb-[400px]">
+      <section id="about" className={`md:scale-125 translate-y-16 md:translate-y-0`} style={{ marginTop: 200 }} >
+         <div className={`max-h-[3000px] mb-[200px] md:mb-[400px]`}>
             {/* dec  */}
             <div className="things__dec">
                <img className="mx-auto" src={image_l} alt="illustration of leaf" />
             </div>
             {/* heading  */}
-            <h2 className="text-center" id="aboutme" data-aos="fade-right">About me</h2>
+            <h2 className="text-center" id="aboutme">About me</h2>
             {/* item 1  */}
-            <div className="things__item">
+            <div className={`things__item`} >
                {/* img  */}
                <img src={image_1} alt="illustratio" />
                {/* text  */}
-               <div className="things__item--heading dot" ref={boxRef}>
+               <div className="things__item--heading dot" >
                   <h3>EDUCATION</h3>
                   <p>
                      Graduated at HAUI

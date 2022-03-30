@@ -65,6 +65,13 @@ npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome @forta
 npm i react-h5-audio-player
 ```
 
+
+# Install OnScroll
+```bash
+npm i react-intersection-observer --save
+```
+
+
 # Copy into 'tailwind.config.js'
 ```javascript
 module.exports = {

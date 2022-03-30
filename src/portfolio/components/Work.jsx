@@ -1,3 +1,4 @@
+import { useInView } from 'react-intersection-observer'
 const work = require("../assets/img/work-dec.png");
 const work1 = require("../assets/img/work-1.png");
 const work2 = require("../assets/img/work-2.png");
@@ -5,10 +6,15 @@ const work3 = require("../assets/img/work-3.png");
 const work4 = require("../assets/img/work-4.png");
 
 const Work = () => {
+   const { ref, inView } = useInView({
+      /* Optional options */
+      threshold: 0.4,
+   });
+   console.log(inView);
    return (
       <>
          {/* works  */}
-         <section id="works">
+         <section id="works" className={`${inView ? "slider slider--zoom" : "slider"}`} ref={ref}>
             <div className="container">
                {/* dec  */}
                <div className="works__dec">

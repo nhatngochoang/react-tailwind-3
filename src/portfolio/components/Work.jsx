@@ -61,12 +61,12 @@ const Work = () => {
                      <img src={work3} alt="women" />
                      <div className="photo__overlay">
                         <h3 className="photo__title">
-                           Lading Page 2
+                           MERN App
                         </h3>
                         <div className="photo__actions">
                            <div>
                               <button type="button" className="btn btn-outline-light btn-sm">
-                                 <a href="https://react-tailwind-3-4az8ee0q9-tahn-0102.vercel.app/landingPage2">Take a View</a>
+                                 <a href="https://m2-ecommerce-shop-dvw2xg7tb-tahn-0102.vercel.app/">Take a View</a>
                               </button>
                            </div>
                         </div>

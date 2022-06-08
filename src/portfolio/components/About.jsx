@@ -55,7 +55,7 @@ const About = ({ isMobile }) => {
                   <div>
                      <ul>
                         <li>Intern at VMO Holding</li>
-                        <li>Fresher at DD Solution</li>
+                        <li>Fresher at </li>
                      </ul>
                   </div>
                </div>

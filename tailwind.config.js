@@ -1,4 +1,5 @@
 module.exports = {
+   mode: 'jit',
    content: [
       "./src/**/*.{js,jsx,ts,tsx}",
    ],
@@ -29,6 +30,10 @@ module.exports = {
             "green-var": "#54b192",
             "green-l-var": "#a4cec0",
             "gray-var": "#3f3d56",
+
+            "primary": '#202225',
+            "secondary": '#5865f2',
+            // !OVERRIDE  gray : {900: '#3f3d56', 800: '#5d5d5d', 700: '#8e8e8e', 600: '#b3b3b3', 500: '#d9d9d9', 400: '#ebebeb', 300: '#f5f5f5', 200: '#fafafa', 100: '#fcfcfc'},
          },
          // fontSize 
          fontSize: {

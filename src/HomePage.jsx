@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import SideBar from "./portfolio/components/SideBar.jsx";
 
 const HomePage = () => {
    return (
       <>
-         HomePage
-         <ul>
+         <div className="flex">
+            <SideBar />
+         </div>
+         {/* <ul>
             <li>
                <Link to="/landingPage" >LandingPage</Link>
             </li>
@@ -20,7 +23,7 @@ const HomePage = () => {
             <li>
                <Link to="/portfolio" >Portfolio</Link>
             </li>
-         </ul>
+         </ul> */}
       </>
    );
 }

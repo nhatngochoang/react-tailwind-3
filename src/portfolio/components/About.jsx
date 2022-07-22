@@ -28,6 +28,9 @@ const About = ({ isMobile }) => {
                   <p>
                      Graduated at HAUI
                   </p>
+                  <p>
+                     GPA: 2.95
+                  </p>
                </div>
             </div>
             {/* item 2  */}
@@ -39,8 +42,9 @@ const About = ({ isMobile }) => {
                   <h3>PROS</h3>
                   <div>
                      <ul>
-                        <li>Willing to learn new knowledge</li>
                         <li>Good teamwork skills</li>
+                        <li>Willing to learn new technology</li>
+                        <li>Quickly apply, high initiative in work </li>
                      </ul>
                   </div>
                </div>
@@ -55,7 +59,7 @@ const About = ({ isMobile }) => {
                   <div>
                      <ul>
                         <li>Intern at VMO Holding</li>
-                        <li>Fresher at </li>
+                        <li>Intern at Twinger.JSC </li>
                      </ul>
                   </div>
                </div>

@@ -46,7 +46,7 @@ const Work = () => {
                      <img src={work2} alt="plate" />
                      <div className="photo__overlay">
                         <h3 className="photo__title">
-                           Lading Page 1
+                           Lading Page
                         </h3>
                         <div className="photo__actions">
                            <div>

@@ -1,12 +1,8 @@
 import Switch from "./routes/Switch.jsx";
 
-
 function App() {
-
    return (
-      <>
-         <Switch />
-      </>
+      <><Switch /></>
    );
 }
 

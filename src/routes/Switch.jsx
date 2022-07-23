@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import HomePage from '../HomePage.jsx'
 import LandingPage from '../landing-page/LandingPage.js'
 import LandingPage2 from '../landing-page-2/LandingPage2.js'
 import Spotify from '../spotify/Spotify.jsx'
 import TikTok from '../tiktok/TikTok.jsx'
 import Portfolio from '../portfolio/Portfolio.jsx'
+import HomePage from '../pages/HomePage.jsx'
 
 const Switch = () => {
 

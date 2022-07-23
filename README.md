@@ -105,6 +105,7 @@ w-[100%] === w-full
 w-[60%] === w-3/5
 h-screen
 
+min-w-[n%]
 max-w-{n}
 
 # Padding 
@@ -119,12 +120,19 @@ py-{n} ➡ pt+pb
 - ml-auto
   
 # Border 
-rounded-{n}
+rounded-{n} / md
+border-b
+border-primary
+
+# Shadow
+shadow-(md / lg)
 
 # Color  
 bg-{color}-{n}
 
 # Text
+## Can giua chieu ngang
+text-(center / right / left
 ## font-weight
 font-thin	    ➡ 100;
 font-extralight ➡ 200;
@@ -144,12 +152,16 @@ hover:{class-property}
 # Overflow 
 overflow-y-auto
 overflow-x-hidden
+overflow-hidden
 
 # Opacity
 opacity-0
 
+# Scale
+scale-100
+
 # Transition 
-transition-all duration-300
+transition-all ease-out duration-300
 
 # Translate
 translate-x-full
@@ -172,15 +184,13 @@ translate-x-full
 - align-items ➡ items-(start / end / center / baseline / stretch)
 - justify-content ➡ justify-(start /end /center /between /around /evenly)
 
-# Can giua chieu ngang
-text-center
 
 # Grid 
-grid gap-{n} grid-cols-{n} grid-rows-{n}
-
+Cha: grid grid-cols-{n} grid-rows-{n} gap-{n} 
+Con: col-span-{n}
 # Position 
 relative 
-absolute (top / bottom / left / right)-{n}
+absolute  +  (top / bottom / left / right)-{n}
 fixed
 # Snap Scroll
 - parent div ➡ snap-y snap-mandatory overflow-scroll h-screen

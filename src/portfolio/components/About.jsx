@@ -58,7 +58,6 @@ const About = ({ isMobile }) => {
                   <h3>EXPERIENCES</h3>
                   <div>
                      <ul>
-                        <li>Intern at VMO Holding</li>
                         <li>Intern at Twinger.JSC </li>
                      </ul>
                   </div>

@@ -101,7 +101,7 @@ module.exports = {
 prop-[...value]
 
 # Width, Height 
-w-[100%] === w-full
+w-[100%] === w-full | container
 w-[60%] === w-3/5
 h-screen
 

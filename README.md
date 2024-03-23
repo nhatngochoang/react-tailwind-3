@@ -162,6 +162,7 @@ scale-100
 
 # Transition 
 transition-all ease-out duration-300
+transition-colors 
 
 # Translate
 translate-x-full
@@ -173,11 +174,15 @@ translate-x-full
 - bg-gradient-to-{direction: r,l,t,b} from-{color}-{n} via-{color}-{n} to-{color}-{n}
 
 # Responsive  
-- sm: 640
-- md: 768
-- lg: 1024
-- xl: 1280
-- 2xl: 1536
+- sm: 640 grid-cols-2
+- md: 768 grid-cols-3
+- lg: 1024 grid-cols-4
+- xl: 1280 grid-cols-5
+- 2xl: 1536 grid-cols-6
+
+sm:max-md:grid-cols-2
+min-[400px]:grid-cols-2
+
 
 # Flex 
 - flex | flex-(row|col)
@@ -195,3 +200,22 @@ fixed
 # Snap Scroll
 - parent div ➡ snap-y snap-mandatory overflow-scroll h-screen
 - child div ➡ snap-(start / center / end)
+
+
+# Group and Peer
+```html
+  <div className="peer/1 group/1 grid place-items-center h-20 w-20 bg-blue">
+        <div className="h-5 w-5 bg-black group-hover/1:bg-slate-300"></div>
+        <div className="h-5 w-5 bg-black"></div>
+      </div>
+      <div className="h-20 w-20 bg-green-400 peer-hover/1:bg-orange-400"></div>
+```
+    
+
+# Animation
+
+animate-spin
+animate-pulse
+animate-bounce
+animate-ping
+

@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import SideBar from "../portfolio/components/SideBar.jsx";
+import Lab from "../lab/index.js";
 
 const HomePage = () => {
    return (
       <>
          <div className="flex">
-            <SideBar />
+            {/* <SideBar /> */}
+            <Lab />
          </div>
          {/* <ul>
             <li>

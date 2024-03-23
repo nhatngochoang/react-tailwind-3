@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
    mode: 'jit',
    content: [
@@ -74,5 +76,17 @@ module.exports = {
          }
       },
    },
-   plugins: [],
+   plugins: [
+      plugin(
+         ({ theme, addUtilities }) => {
+            const neonUtilities = {}
+            Object.entries(theme('colors')).map(([name, value]) => {
+               neonUtilities[`.neon-${name}`] = {
+                  color: value,
+               }
+            })
+            addUtilities(neonUtilities, ['dark', 'responsive'])
+         }
+      )
+   ],
 }
